@@ -10,25 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        slider()
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     
     @IBOutlet weak var redOutlet: UISlider!
     @IBOutlet weak var greenOutlet: UISlider!
     @IBOutlet weak var blueOutlet: UISlider!
+    @IBOutlet weak var colorSquare: UIView!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        slider()
+        colorSquare.layer.borderColor = UIColor.black.cgColor
+        colorSquare.layer.borderWidth = 1
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
     @IBAction func slider() {
-        view.backgroundColor = UIColor(colorLiteralRed: redOutlet.value, green: greenOutlet.value, blue: blueOutlet.value, alpha: 1)
+        colorSquare.backgroundColor = UIColor(colorLiteralRed: redOutlet.value, green: greenOutlet.value, blue: blueOutlet.value, alpha: 1)
     }
     
     

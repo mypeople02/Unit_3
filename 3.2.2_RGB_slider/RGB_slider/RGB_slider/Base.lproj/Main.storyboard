@@ -65,11 +65,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mno-Fj-KOU">
+                                <rect key="frame" x="167" y="220" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="blueOutlet" destination="pSh-Gt-Hbf" id="Wau-PA-Cpa"/>
+                        <outlet property="colorSquare" destination="mno-Fj-KOU" id="bgl-1D-XWI"/>
                         <outlet property="greenOutlet" destination="l2f-Ug-Rw8" id="Bys-Hb-jC1"/>
                         <outlet property="redOutlet" destination="j0d-1E-qEW" id="ko7-j0-nzL"/>
                     </connections>
