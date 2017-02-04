@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    
     @IBAction func slider() {
         colorSquare.backgroundColor = UIColor(colorLiteralRed: redOutlet.value, green: greenOutlet.value, blue: blueOutlet.value, alpha: 1)
     }
