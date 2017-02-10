@@ -79,7 +79,7 @@
 			children = (
 				B4E521C81E42F2E100FC4020 /* RGB_slider */,
 				B4E521DD1E42F2E100FC4020 /* RGB_sliderTests */,
-				B4E521E81E42F2E100FC4020 /* RGB_sliderUITests */,
+				B4E521E81E42F2E100FC4020 /* UI */,
 				B4E521C71E42F2E100FC4020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,12 +116,13 @@
 			path = RGB_sliderTests;
 			sourceTree = "<group>";
 		};
-		B4E521E81E42F2E100FC4020 /* RGB_sliderUITests */ = {
+		B4E521E81E42F2E100FC4020 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				B4E521E91E42F2E100FC4020 /* RGB_sliderUITests.swift */,
 				B4E521EB1E42F2E100FC4020 /* Info.plist */,
 			);
+			name = UI;
 			path = RGB_sliderUITests;
 			sourceTree = "<group>";
 		};
@@ -503,6 +504,7 @@
 				B4E521F01E42F2E100FC4020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4E521F11E42F2E100FC4020 /* Build configuration list for PBXNativeTarget "RGB_sliderTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +513,7 @@
 				B4E521F31E42F2E100FC4020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4E521F41E42F2E100FC4020 /* Build configuration list for PBXNativeTarget "RGB_sliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +522,7 @@
 				B4E521F61E42F2E100FC4020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
