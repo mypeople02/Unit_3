@@ -15,7 +15,6 @@
 		B41510DC1E2AE44D00871A62 /* Fibonacci_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41510DB1E2AE44D00871A62 /* Fibonacci_AppTests.swift */; };
 		B41510E71E2AE44D00871A62 /* Fibonacci_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41510E61E2AE44D00871A62 /* Fibonacci_AppUITests.swift */; };
 		B41510F51E2AE57400871A62 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41510F41E2AE57400871A62 /* FibonacciSequence.swift */; };
-		B4E521BC1E42E9DB00FC4020 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E521BB1E42E9DB00FC4020 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		B41510E61E2AE44D00871A62 /* Fibonacci_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_AppUITests.swift; sourceTree = "<group>"; };
 		B41510E81E2AE44D00871A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B41510F41E2AE57400871A62 /* FibonacciSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
-		B4E521BB1E42E9DB00FC4020 /* FibonacciSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FibonacciSequence.swift; path = ../../FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 				B41510C81E2AE44D00871A62 /* ViewController.swift */,
 				B41510CA1E2AE44D00871A62 /* Main.storyboard */,
 				B41510F41E2AE57400871A62 /* FibonacciSequence.swift */,
-				B4E521BB1E42E9DB00FC4020 /* FibonacciSequence.swift */,
 				B41510CD1E2AE44D00871A62 /* Assets.xcassets */,
 				B41510CF1E2AE44D00871A62 /* LaunchScreen.storyboard */,
 				B41510D21E2AE44D00871A62 /* Info.plist */,
@@ -266,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41510F51E2AE57400871A62 /* FibonacciSequence.swift in Sources */,
-				B4E521BC1E42E9DB00FC4020 /* FibonacciSequence.swift in Sources */,
 				B41510C91E2AE44D00871A62 /* ViewController.swift in Sources */,
 				B41510C71E2AE44D00871A62 /* AppDelegate.swift in Sources */,
 			);
